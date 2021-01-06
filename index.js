@@ -1,0 +1,1 @@
+console.log('test Script JS');
