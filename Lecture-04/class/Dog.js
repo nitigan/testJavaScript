@@ -1,9 +1,9 @@
 class Dog{
     constructor(name){
-        this.name = name
+        this._name = name
     }
     introduce(){
-        console.log("This is "+ this.name + " !")
+        console.log("Hello - This is "+ this._name + " !")
     }
 
     static bark(){
@@ -13,5 +13,10 @@ class Dog{
 
 const myDog = new Dog("Buster")
 myDog.introduce()
+//myDog.bark()
+
+// create new Dog
+const my2Dog = new Dog("Pluto")
+my2Dog.introduce()
 
 Dog.bark()

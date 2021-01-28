@@ -14,8 +14,9 @@ class Song extends Media {
 
 const mySong = new Song({
     artist: "Queen",
-    name: "Bohemian Rhapsody",
+    name: "Bohemian Rhapsody", //if use namex : ->  undefined
     publishDate: 1975,
+    price :45, // create new attribute don't show result
 })
 
 console.log(mySong)

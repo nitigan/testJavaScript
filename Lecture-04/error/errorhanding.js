@@ -6,8 +6,8 @@ function logError(theException){
     console.log(theException)
 }
 
-
-console.log("\n*****TRy...Catch****\n")
+//try catch
+console.log("\n*****Try...Catch****\n")
 
 try{
     criticalCode()
@@ -17,7 +17,7 @@ try{
 }
 
 
-console.log("\n*****Throwing in TRy...Catch****\n")
+console.log("\n*****Throwing in Try...Catch****\n")
 
 try {
     throw "An exception that is thrown every time"
@@ -27,10 +27,14 @@ try {
 }
 
 
-console.log("\n*****TRy...Catch.. Finally****\n")
+console.log("\n*****Try...Catch.. Finally****\n")
+cd;  // err and Program Exit : don't coding program in this error
+
 
 try{
-    criticalCode()
+    //criticalCode()
+    let x = 0  // test don't error
+    //x; // test for err : x is not defined
 }catch(ex){
     console.log("Got an error")
     logError(ex)

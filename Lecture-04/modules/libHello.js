@@ -4,7 +4,7 @@ const person = {
 }
 
 function sayHello(){
-    console.log("Hello World")
+    console.log("Hello World - Prachin")
 }
 
 function cube(x){
@@ -16,3 +16,4 @@ const add = (a,b) => a+b;
 const status = true
 
 module.exports = {person, sayHello,cube,add,status}
+//module.exports = {person, sayHello,cube,status} //don't export add
