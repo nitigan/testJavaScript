@@ -1,5 +1,6 @@
 const promise = new Promise((resolve,reject)=>{
     const res = true
+    //const res = false
     if (res){
         resolve("Resolved!")
     }else{

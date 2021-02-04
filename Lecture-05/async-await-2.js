@@ -14,7 +14,8 @@ async function run(){
     console.log("Start!!!")
     //try take of await and compare
     await promiseTimeout(2000)
-    const response = await longRunningOperation()
+    //const response = await longRunningOperation()
+    const response = longRunningOperation()
     console.log(response)
     
     console.log("Stop!!")

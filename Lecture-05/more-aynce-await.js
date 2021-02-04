@@ -1,7 +1,7 @@
 function who(){
     return new Promise((resolve)=>{
         setTimeout(() =>{
-            resolve("^_^");
+            resolve("🤡");
         },200)
     })
 }
@@ -23,12 +23,15 @@ function where(){
 }
 
 async function msg(){
-    const a = await who()
-    const b = await what()
-    const c = await where()
+    //const a = await who() //-> 🤡
+    //const b = await what() // ->Lurks
+    //const c = await where() // ->
+    const a = who() // ->  [object Promise]
+    const b = await what() // ->Lurks
+    const c = await where() // -> in the shadows
 
     console.log(`${a} ${b} ${c}`)
 }
 console.log('We are looking for :')
-msg()
+msg() //🤡  lurk in the shadows <-- after 1 second
 console.log('Hello')
